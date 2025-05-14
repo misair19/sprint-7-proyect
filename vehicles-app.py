@@ -7,7 +7,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 
 # Carga del dataset
-vehicles_df = pd.read_csv(r'C:\PERSONAL\Data Analyst\Sprint 7\sprint-7-proyect\vehicles_us.csv')
+vehicles_df = pd.read_csv('vehicles_us.csv')
 
 # Establecer el título
 st.title('Anuncios de ventas de vehículos')
